@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, inital scale=1.0" />
+   <title>Tournaments | Time for Tee</title>
+   <link rel="stylesheet" href="css/output.css" />
+   <link rel="stylesheet" href="css/style.css" />
+   <!-- <script src="js/clubCalc.js" defer></script> -->
+   <script src="https://kit.fontawesome.com/084a8d8cde.js" crossorigin="anonymous"></script>
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+   </style>
+</head>
+
+<body>
+   <header class=" bg-emerald-700">
+      <nav class="flex justify-between flex-wrap container m-auto">
+         <div class="flex flex-shrink-0 ">
+            <img class="pr-12 float-left" src="img/golfIcon.png" width="125px" alt="Time for Tee Logo" />
+            <div class="menu w-full flex-grow sm:flex sm:items-center sm:w-auto">
+               <ul class="ml-8">
+                  <li><a href="index.html" class="block sm:inline-block sm:mt-0">Home</a></li>
+                  <li><a class="block sm:inline-block sm:mt-0" href="find-a-tee-time.html">Find A Tee Time</a></li>
+                  <li class="parentDropdown"><a class="block sm:inline-block sm:mt-0" href="#">Tourneys &
+                        Leagues</a>
+                     <ul class="childDropdown right-0">
+                        <li><a class="block sm:inline-block sm:mt-0" href="tourneys.html">Local Tournaments</a>
+                        </li>
+
+                        <li><a class="block sm:inline-block sm:mt-0" href="leagues.html">Local Leagues</a></li>
+                     </ul>
+                  </li>
+                  <li class="parentDropdown "><a class="block sm:inline-block sm:mt-0" href="#">My Golf</a>
+                     <ul class="childDropdown right-0">
+                        <li><a class="block sm:inline-block sm:mt-0" href="myRounds.html">My Rounds</a></li>
+                        <li><a class="block sm:inline-block sm:mt-0" href="myBag.html">My Bag</a></li>
+                     </ul>
+                  </li>
+                  <li><a class="block sm:inline-block sm:mt-0" href="contact-us.html">Contact Us</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <section class="flex justify-center">
+      <img src="img/slider.jpg" width="100%" alt=" Hero Image" />
+      <h2
+         class="text-white lg:top-1/4 max-lg:top-24 max-md:top-20 max-sm:top-16 pt-12 absolute mx-auto text-center uppercase text-4xl font-bold	">
+         Tournaments</h2>
+   </section>
+   <!--Opening Statement-->
+   <main>
+      <section class="mx-auto md:px-32 py-4 px-4 mt-5">
+         <div class="md:flex  gap-12">
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">Lob Wedge (LW 64)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="clubLW" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">Sand Wedge (SW 56)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="clubSW" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">Gap Wedge (GW 52)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="clubGW" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">Pitching Wedge (PW 48)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="clubPW" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="md:flex mt-10 gap-12">
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">9-Iron (9I)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="club9" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">8-Iron (8I)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="club8" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">7-Iron (7I)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="club7" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">6-Iron (6I)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="club6" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         <div class="md:flex mt-10 gap-12">
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">5-Iron (5I)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="club5" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">4-Iron (4I)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="club4" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">3-Iron (3I)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="club3i" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">2-Iron (2I)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="club2i" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="md:flex mt-10 gap-12">
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">5-Wood (5W)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="club5w" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">3-Wood (3W)</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter
+                           Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="club3w" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="flex-1 text-center bg-slate-700 hover:bg-slate-900  rounded">
+               <div class="lg:items-center">
+                  <div class="lg:flex-shrink-0">
+
+                     <div class="px-5 py-5 m-2">
+                        <h2 class="uppercase tracking-wide text-2xl text-white font-bold">Driver</h2>
+                        <h3 class="uppercase tracking-wide text-md mt-8 text-white font-bold inline-block">Enter
+                           Your
+                           Avg
+                           Distance:</h3>
+                        <input type="text" name="clubD" class="mt-4 inline-block max-lg:ml-8 items-center" />
+                        <div class="clubFeedback mt-10 text-white">
+                           CLUB FEEDBACK WOULD GO HERE
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <button
+               class="clubCalculateBtn flex-1 text-center rounded text-white font-bold bg-green-700 hover:bg-green-400 hover:text-black  py-4">Calculate</button>
+         </div>
+      </section>
+      <!--Callout-->
+      <section
+         class="grid grid-cols-2 max-lg:grid-cols-1 gap-12 max-lg:gap-4 mt-10 px-40 max-lg:px-16 py-10 bg-gray-800 text-center">
+         <div class="col-span-1">
+            <h2 class="uppercase tracking-wide text-md text-white font-bold text-left max-lg:text-center">Are you
+               looking for tournaments to play?</h2>
+            <p class="text-md text-white text-left max-lg:text-center">Click the button to learn more about tournaments
+               going on in OC.</p>
+         </div>
+         <div class="col-span-1 px-20">
+            <a href="find-a-tee-time.html"><button
+                  class="text-center rounded text-white font-bold bg-green-700 hover:bg-green-400 hover:text-black px-4 py-4 w-full">View
+                  Courses Now</button>
+            </a>
+         </div>
+      </section>
+   </main>
+   <!--Include links from Page Menu, Contact Info, Copyright-->
+   <footer
+      class="grid grid-cols-3 max-lg:grid-cols-1 gap-12 px-40 max-lg:px-10 py-10  bg-emerald-700 text-center text-white">
+      <div class="col-span-1 text-left max-lg:text-center inline-block align-middle">
+         <img class="p-2 inline-block" src="img/golfIcon.png" width="100px" alt=" Hero Image" />
+         <div class="inline-block align-middle">
+            <h3 class="text-3xl uppercase font-bold lg:text-md md:text-sm sm:text-sm">&copy; Time for Tee</h3>
+            <p class="text-md font-bold">Time for Tee is a company helping golfers find <br>courses,
+               tourneys,
+               leagues, tee
+               times, and more.</p>
+            <p class="text-md font-bold">(555)555-5555 - email@email.com</p>
+         </div>
+      </div>
+      <div class="col-span-1 max-lg:text-center">
+         <h2 class="uppercase tracking-wide text-lg font-bold ">Links</h2>
+         <ul>
+            <li>
+               <a href="#">Home</a>
+            </li>
+            <li>
+               <a href="#">Tee Times</a>
+            </li>
+            <li>
+               <a href="#">Tournaments</a>
+            </li>
+         </ul>
+      </div>
+      <div class="col-span-1 max-lg:text-center">
+         <h2 class="uppercase tracking-wide text-lg font-bold">Other Links</h2>
+         <ul>
+            <li>
+               <a href="#">Clubs</a>
+            </li>
+            <li>
+               <a href="#">Caddybooks</a>
+            </li>
+            <li>
+               <a href="#">Scorecards</a>
+            </li>
+         </ul>
+      </div>
+   </footer>
+</body>
+
+</html>
