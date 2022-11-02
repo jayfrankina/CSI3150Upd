@@ -33,4 +33,3 @@ function calculateScores(index) {
       console.log("Try again")
    }
 }
-    console.log("Correct Answer");
